@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сетка</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box {
+      flex: 1;
+      padding: 20px;
+      background-color: #bbb;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Сетка</h2>
+  <!--DadaDasdDSAdasdasd-->
+  <div class="grid-container">
+    <div class="box">
+      <p>1</p>
+    </div>
+    <div class="box" style="background-color: #ccc">
+      <p>2</p>
+    </div>
+    <div class="box" style="background-color: #ddd">
+      <p>3</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
